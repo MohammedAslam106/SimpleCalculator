@@ -1,0 +1,30 @@
+.button{
+    /* padding: 40px; */
+    margin-right: 8px;
+    width: 70px;
+    height: 70px;
+    text-align:center;
+    font-size: 28px;
+    border-radius: 50%;
+}
+.button:hover{
+    transform: scale(1.05);
+}
+.row{
+    margin: 8px;
+}
+.input{
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 33px;
+    text-align: end;
+    font-size: 25px;
+}
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
